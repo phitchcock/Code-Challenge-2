@@ -15,6 +15,8 @@
 		D0553ABA19E8201A00CA3C96 /* CodeChallengeTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0553AB919E8201A00CA3C96 /* CodeChallengeTwoTests.swift */; };
 		D0553AC419E821E300CA3C96 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0553AC319E821E300CA3C96 /* CustomTableViewCell.swift */; };
 		D0553AC619E8228600CA3C96 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0553AC519E8228600CA3C96 /* City.swift */; };
+		D0553AC819E8289400CA3C96 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0553AC719E8289400CA3C96 /* DetailTableViewCell.swift */; };
+		D0553ACA19E829C500CA3C96 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0553AC919E829C500CA3C96 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		D0553AB919E8201A00CA3C96 /* CodeChallengeTwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallengeTwoTests.swift; sourceTree = "<group>"; };
 		D0553AC319E821E300CA3C96 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D0553AC519E8228600CA3C96 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		D0553AC719E8289400CA3C96 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		D0553AC919E829C500CA3C96 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				D0553AA519E8201A00CA3C96 /* ViewController.swift */,
 				D0553AC519E8228600CA3C96 /* City.swift */,
 				D0553AA719E8201A00CA3C96 /* Main.storyboard */,
+				D0553AC919E829C500CA3C96 /* DetailViewController.swift */,
+				D0553AC719E8289400CA3C96 /* DetailTableViewCell.swift */,
 				D0553AC319E821E300CA3C96 /* CustomTableViewCell.swift */,
 				D0553AAA19E8201A00CA3C96 /* Images.xcassets */,
 				D0553AAC19E8201A00CA3C96 /* LaunchScreen.xib */,
@@ -221,6 +227,8 @@
 				D0553AC419E821E300CA3C96 /* CustomTableViewCell.swift in Sources */,
 				D0553AA619E8201A00CA3C96 /* ViewController.swift in Sources */,
 				D0553AC619E8228600CA3C96 /* City.swift in Sources */,
+				D0553ACA19E829C500CA3C96 /* DetailViewController.swift in Sources */,
+				D0553AC819E8289400CA3C96 /* DetailTableViewCell.swift in Sources */,
 				D0553AA419E8201A00CA3C96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
