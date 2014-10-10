@@ -64,6 +64,10 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
             let destinationController = segue.destinationViewController as WebViewController
             destinationController.city = city
         }
+        if segue.identifier == "edit" {
+            let destinationController = segue.destinationViewController as EditViewController
+            destinationController.city = city
+        }
     }
 
 
