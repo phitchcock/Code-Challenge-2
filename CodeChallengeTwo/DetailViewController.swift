@@ -19,6 +19,9 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
         super.viewDidLoad()
         self.cityImageView.image = UIImage(named: city.image)
         title = self.city.name
+        self.tableView.backgroundColor = UIColor(red: 240.0/255.0, green: 240.0/255.0, blue: 240.0/255.0, alpha: 0.2)
+        self.tableView.separatorColor = UIColor(red: 240.0/255.0, green: 240.0/255.0, blue: 240.0/255.0, alpha: 0.8)
+        self.tableView.tableFooterView = UIView(frame: CGRectZero)
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,13 +38,15 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
         let cell = tableView.dequeueReusableCellWithIdentifier("dCell", forIndexPath: indexPath) as DetailTableViewCell
 
         cell.backgroundColor = UIColor.clearColor()
+        cell.wikiButton.hidden = true
 
         switch indexPath.row {
         case 0:
-            cell.fieldLabel.text = "City Name"
+            cell.fieldLabel.text = "City Name:"
             cell.valueLabel.text = city.name
+            cell.wikiButton.hidden = false
         case 1:
-            cell.fieldLabel.text = "City State"
+            cell.fieldLabel.text = "City State:"
             cell.valueLabel.text = city.state
         default:
             cell.fieldLabel.text = ""
@@ -49,4 +54,17 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
         }
         return cell
     }
+
+    @IBAction func unwindToDetailView(segue: UIStoryboardSegue) {
+        
+    }
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showWebView" {
+            let destinationController = segue.destinationViewController as WebViewController
+            destinationController.city = city
+        }
+    }
+
+
 }

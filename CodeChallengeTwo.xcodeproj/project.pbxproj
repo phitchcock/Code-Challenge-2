@@ -17,6 +17,7 @@
 		D0553AC619E8228600CA3C96 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0553AC519E8228600CA3C96 /* City.swift */; };
 		D0553AC819E8289400CA3C96 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0553AC719E8289400CA3C96 /* DetailTableViewCell.swift */; };
 		D0553ACA19E829C500CA3C96 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0553AC919E829C500CA3C96 /* DetailViewController.swift */; };
+		D0553ACC19E834EF00CA3C96 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0553ACB19E834EF00CA3C96 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D0553AC519E8228600CA3C96 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		D0553AC719E8289400CA3C96 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		D0553AC919E829C500CA3C96 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D0553ACB19E834EF00CA3C96 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				D0553AA519E8201A00CA3C96 /* ViewController.swift */,
 				D0553AC519E8228600CA3C96 /* City.swift */,
 				D0553AA719E8201A00CA3C96 /* Main.storyboard */,
+				D0553ACB19E834EF00CA3C96 /* WebViewController.swift */,
 				D0553AC919E829C500CA3C96 /* DetailViewController.swift */,
 				D0553AC719E8289400CA3C96 /* DetailTableViewCell.swift */,
 				D0553AC319E821E300CA3C96 /* CustomTableViewCell.swift */,
@@ -228,6 +231,7 @@
 				D0553AA619E8201A00CA3C96 /* ViewController.swift in Sources */,
 				D0553AC619E8228600CA3C96 /* City.swift in Sources */,
 				D0553ACA19E829C500CA3C96 /* DetailViewController.swift in Sources */,
+				D0553ACC19E834EF00CA3C96 /* WebViewController.swift in Sources */,
 				D0553AC819E8289400CA3C96 /* DetailTableViewCell.swift in Sources */,
 				D0553AA419E8201A00CA3C96 /* AppDelegate.swift in Sources */,
 			);

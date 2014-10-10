@@ -11,9 +11,9 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     var cities = [
-        City(name: "Lake Tahoe", state: "California", image: "tahoe.jpg"),
-        City(name: "San Francisco", state: "California", image: "sf.jpg"),
-        City(name: "Carmel", state: "California", image: "carmel.jpg")
+        City(name: "Lake Tahoe", state: "California", image: "tahoe.jpg", url: "http://en.wikipedia.org/wiki/Lake_Tahoe"),
+        City(name: "San Francisco", state: "California", image: "sf.jpg", url: "http://en.wikipedia.org/wiki/San_Francisco"),
+        City(name: "Carmel", state: "California", image: "carmel.jpg", url: "http://en.wikipedia.org/wiki/Carmel-by-the-Sea,_California")
     ]
 
     @IBOutlet weak var tableView: UITableView!

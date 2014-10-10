@@ -12,10 +12,12 @@ class City {
     var name:String = ""
     var state:String = ""
     var image:String = ""
+    var url:String = ""
 
-    init(name:String, state:String, image:String) {
+    init(name:String, state:String, image:String, url:String) {
         self.name = name
         self.state = state
         self.image = image
+        self.url = url
     }
 }
